@@ -9,6 +9,10 @@
 # 3. ...i z wyjątkiem samego tego pliku:
 !.gitignore
 
+!README.md
+
+!pagename.png
+
 # 4. Globalne zasady ignorowania plików tymczasowych LaTeX-a
 # (będą działać we wszystkich podfolderach, które śledzisz)
 *.aux
