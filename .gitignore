@@ -20,4 +20,6 @@
 *.blg
 *.glog
 *.gtex
+*.fls
+*.gaux
 *~
