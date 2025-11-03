@@ -18,4 +18,6 @@
 *.synctex.gz
 *.bbl
 *.blg
+*.glog
+*.gtex
 *~
