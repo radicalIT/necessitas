@@ -1,5 +1,5 @@
 # Fdb version 4
-["lualatex"] 1762112798.70368 "d:/LateX/Akatyst_do_Bogurodzicy/mobile-friendly/main.tex" "main.pdf" "main" 1762112818.89175 0
+["lualatex"] 1762184255.08928 "d:/LateX/Akatyst_do_Bogurodzicy/mobile-friendly/main.tex" "main.pdf" "main" 1762184275.53695 0
   "C:/Users/kosik/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1761845374 382865 7f3db241f62f6b441ef34c07455b41da ""
   "C:/Users/kosik/AppData/Local/MiKTeX/luatex-cache/generic/fonts/otl/abadesa.luc" 1760087832 11618 a48268c46a8aaaf77244420eb6fd6b50 ""
   "C:/Users/kosik/AppData/Local/MiKTeX/luatex-cache/generic/fonts/otl/besley-italic-variablefont-wght.luc" 1760087833 62447 d63ed9c4b77d2dc727a4018e02bb2536 ""
@@ -228,7 +228,7 @@
   "Parts/kondakion_7.tex" 1760271659 447 64d86a3e394bdcf325510e76d141b669 ""
   "Parts/kondakion_8.tex" 1761508973 497 1c55dc61abddb922b798c9f40a381358 ""
   "Parts/kondakion_9.tex" 1761509452 402 9e1e86f22cf1cf9586457815f0e5c9b2 ""
-  "Parts/legenda.tex" 1762100147 2054 1bb11f18b151c904eb01b5b6adc8b306 ""
+  "Parts/legenda.tex" 1762184221 2054 1bb11f18b151c904eb01b5b6adc8b306 ""
   "Sources/Ryciny/Mszał/baner_kadzidlo.png" 1762111445 219771 7b9201a7d8ea57ef893c00537356330a ""
   "Sources/Ryciny/Mszał/christus_rex.png" 1762112366 126714 a9831dd51205a7f3cd1af2b0b850df7d ""
   "Sources/Ryciny/Mszał/dziecko.png" 1762111345 103598 a5a85e72dea82aa857bfed81d68080ec ""
@@ -250,7 +250,7 @@
   "Sources/rotunda_symbol.png" 1754581081 1189 75229f22c9444a43a60834f7e4373369 ""
   "commands.tex" 1762111543 2242 aceed73578e826f13eec2e6cbcac0bdb ""
   "d:/LateX/Akatyst_do_Bogurodzicy/mobile-friendly/main.tex" 1762112703 4184 a3c57c6613d504e879cbd131b0a6d00d ""
-  "main.aux" 1762112818 1462 444e497d54f4ef291e9f39cd0ab9563d "lualatex"
+  "main.aux" 1762184274 1462 444e497d54f4ef291e9f39cd0ab9563d "lualatex"
   "main.tex" 1762112703 4184 a3c57c6613d504e879cbd131b0a6d00d ""
   "style.tex" 1762095520 1752 caa88bd09189e72aa41b2c130d84ddc7 ""
   (generated)
