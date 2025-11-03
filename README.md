@@ -2,8 +2,6 @@
   <img src="pagename.png" alt="Logo Necessitas" width="200"/>
 </p>
 
-<h1 align="center">Projekty "Necessitas"</h1>
-
 ## Cześć!
 
 Nazywam się **Kacper Osika OP** i jestem dominikaninem. To jest moje repozytorium z kodem źródłowym (głównie LaTeX) dla różnych "pomocy modlitewnych", które tworzę i udostępniam na mojej stronie-notatniku.
