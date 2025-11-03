@@ -21,10 +21,10 @@ I dokładnie tak jest z każdym plikiem, który tu znajdziecie. To repozytorium 
 
 Ten repozytorium zawiera kody źródłowe dla następujących projektów:
 
-* **[Kompleta Dominikańska](./Kompleta-OP/)**
+* **[Kompleta Dominikańska](./Kompleta_1982/)**
     Polskie opracowanie Komplety (Modlitwy na zakończenie dnia) wzbogacone o elementy z przedsoborowej tradycji dominikańskiej. Dostępne w wersji recytowanej i śpiewanej.
 
-* **[Akatyst do Bogurodzicy](./Akatyst/)**
+* **[Akatyst do Bogurodzicy](./Akatyst_do_Bogurodzicy/)**
     Intuicyjne opracowanie Akatystu do wspólnego śpiewu. Stworzone z myślą o prostocie, z pogrubionymi akcentami i dyskretnymi znakami muzycznymi ułatwiającymi śpiew.
 
 *(...w przyszłości pojawią się tu kolejne foldery...)*
