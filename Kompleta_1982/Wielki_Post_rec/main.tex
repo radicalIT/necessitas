@@ -1,0 +1,125 @@
+% !TEX program = LuaLaTeX
+\documentclass[14pt,a5paper,twoside]{extbook}
+
+\usepackage[osf,p]{libertine}
+\usepackage[autocompile]{gregoriotex}
+
+\usepackage[polish]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[autostyle=true]{csquotes}
+\usepackage{lipsum}
+\usepackage{xcolor}
+\usepackage{geometry}
+
+\usepackage{titlesec}
+\usepackage{titletoc}
+
+\usepackage{fontspec}
+\setmainfont{Book Antiqua}
+
+\usepackage{etoolbox}
+\usepackage{pdfpages}
+
+\usepackage{setspace}
+
+\input{commands.tex}
+\input{style.tex}
+
+\nonstopmode
+
+% TO DO:
+% - przemyśleć procesję i antyfony końcowe
+% - zmienić rozmiar fontu
+% - Dopasować obrazki i łamanie stron
+
+\title{Kompleta}
+% Na podstawie Proprium Officiorum 1982r.
+% \author{br. Kacper Osika OP}
+
+\begin{document}
+\includepdf[pages={1}]{Materiały/cover_page.pdf}
+
+% \thispagestyle{empty}
+% \color{white}\tiny
+% -
+% \vfill
+% \begin{center}
+%     \includegraphics[width=170px]{Ryciny/Mszał/galazki.jpg}
+% \end{center}
+% \vfill
+% \color{black}\normalsize
+% \clearpage
+
+\chapter{Modlitwy stałe}
+\input{sections/stałe/modlitwa_przed_oficjum.tex}
+\input{sections/stałe/modlitwy_wstepne.tex}
+\input{sections/stałe/hymn.tex}
+
+% \thispagestyle{empty}
+% \color{white}\tiny
+% -
+% \vfill
+% \begin{center}
+%     \includegraphics[width=190px]{Ryciny/Mszał/laus_deo.jpg}
+% \end{center}
+% \vfill
+% \color{black}\normalsize
+% \clearpage
+
+\chapter{Psałterz}
+\label{ch:psalterz}
+\gresetinitiallines{1}
+\input{sections/psalmodia/sb.tex}\\
+\input{sections/psalmodia/nd.tex}\\
+\input{sections/psalmodia/pn.tex}\\
+\input{sections/psalmodia/wt.tex}\\
+\input{sections/psalmodia/sr.tex}\\
+\input{sections/psalmodia/czw.tex}\\
+\input{sections/psalmodia/pt.tex}
+
+\clearpage
+\input{sections/stałe/responsorium.tex}
+\input{sections/stałe/kantyk_symeona.tex}
+\input{sections/stałe/modlitwy_końcowe.tex}
+\input{sections/stałe/modlitwa_po_komplecie.tex}
+
+\clearpage
+\color{white}\tiny{-}
+\vfill
+\begin{center}
+\includegraphics[width=150px]{Ryciny/Mszał/blogoslawienstwo_greckie.jpg}
+\end{center}
+\thispagestyle{empty}
+\vfill
+\color{black}
+\normalsize
+\clearpage
+
+\chapter{Teksty własne}
+\label{ch:tekty_wlasne}
+\input{sections/stałe/teksty_wlasne.tex}
+
+\footnotesize
+\chapter{Antyfony końcowe}
+\label{ch:antyfony_koncowe}
+\input{sections/stałe/antyfony_koncowe.tex}
+\normalsize
+%     \tableofcontents
+% \clearpage
+%     \thispagestyle{empty}
+%     \color{white}\tiny
+%     -
+%     \vfill
+%     \begin{center}
+%         \includegraphics[width=240px]{Ryciny/Mszał/deo_gratias.jpg}
+%     \end{center}
+%     \vfill
+%     \color{black}\normalsize
+% \clearpage
+\thispagestyle{empty}
+\color{white}\tiny{-}
+\vfill
+\includegraphics[width=320px,right]{Ryciny/Mszał/ukrzyżowanie.jpg}
+\vfill
+
+\end{document}

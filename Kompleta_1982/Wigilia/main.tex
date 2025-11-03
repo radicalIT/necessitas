@@ -1,0 +1,72 @@
+% !TEX program = LuaLaTeX
+\documentclass[10pt,a5paper,twoside]{extbook}
+
+\usepackage[osf,p]{libertine}
+\usepackage[autocompile]{gregoriotex}
+
+\usepackage[polish]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[autostyle=true]{csquotes}
+\usepackage{lipsum}
+\usepackage{xcolor}
+\usepackage{geometry}
+
+\usepackage{titlesec}
+\usepackage{titletoc}
+
+\usepackage{fontspec}
+\setmainfont{Book Antiqua}
+
+\usepackage{etoolbox}
+\usepackage{pdfpages}
+
+\usepackage{setspace}
+
+\input{commands.tex}
+\input{style.tex}
+
+\nonstopmode
+
+% TO DO:
+% + Skrócić zapis responsorium
+% + Przeglądnąć rozciągnięcia
+% Poprawić rozciągnięcia w oracji do Savle
+% + Poprawić alleluje - 4x w oktawie, 3x normalnie
+% + Wywalić antyfony bez alleluji
+% + Dodać 2 wersje Regina caeli
+% + Powywalać pauzy w Haec Dies zgodnie z nieszporami
+% + przecinek po emmanuel, średnia kreska i alleluia
+
+\title{Kompleta}
+% Na podstawie Proprium Officiorum 1982r.
+% \author{br. Kacper Osika OP}
+
+\begin{document}
+% \includepdf[pages={1}]{Materiały/cover_page.pdf}
+
+% \input{sections/stałe/modlitwa_przed_oficjum.tex}
+% \input{sections/stałe/modlitwy_wstepne.tex}
+% \input{sections/stałe/hymn.tex}
+
+
+\gresetinitiallines{1}
+% \input{sections/psalmodia/sb.tex}
+\input{sections/psalmodia/nd.tex}
+
+
+% \gresetinitiallines{0}
+% \input{sections/stałe/responsorium.tex}
+
+\gresetinitiallines{1}
+\input{sections/stałe/kantyk_symeona.tex}
+% \input{sections/stałe/modlitwy_końcowe.tex}
+% \input{sections/stałe/modlitwa_po_komplecie.tex}
+
+% \clearpage
+% \thispagestyle{empty}
+% \vfill
+% \begin{center}
+%     \includegraphics[width=295px]{Ryciny/Mszał/narodzenie2.jpg}
+% \end{center}
+% \vfill
+\end{document}

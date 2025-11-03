@@ -1,0 +1,111 @@
+% !TEX program = LuaLaTeX
+\documentclass[14pt,a5paper,twoside,openany]{extbook}
+
+\usepackage[osf,p]{libertine}
+\usepackage[autocompile]{gregoriotex}
+
+\usepackage[polish]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[autostyle=true]{csquotes}
+\usepackage{lipsum}
+\usepackage{xcolor}
+\usepackage{geometry}
+
+\usepackage{titlesec}
+\usepackage{titletoc}
+
+\usepackage{fontspec}
+\setmainfont{Book Antiqua}
+
+\usepackage{etoolbox}
+\usepackage{pdfpages}
+
+\usepackage{setspace}
+
+\input{commands.tex}
+\input{style.tex}
+
+\nonstopmode
+
+% TO DO:
+% - obrazki
+
+\title{Kompleta}
+% Na podstawie Proprium Officiorum 1982r.
+% \author{br. Kacper Osika OP}
+
+\begin{document}
+
+\includepdf[pages={1}]{Materiały/cover_page.pdf}
+
+\chapter{Modlitwy stałe}
+\input{sections/stałe/modlitwa_przed_oficjum.tex}
+\input{sections/stałe/modlitwy_wstepne.tex}
+\input{sections/stałe/hymn.tex}
+
+\chapter{Psałterz}
+\label{ch:psalterz}
+\gresetinitiallines{1}
+\input{sections/psalmodia/sb.tex}\\
+\input{sections/psalmodia/nd.tex}\\
+\input{sections/psalmodia/pn.tex}\\
+\input{sections/psalmodia/wt.tex}\\
+\input{sections/psalmodia/sr.tex}\\
+\input{sections/psalmodia/czw.tex}\\
+\input{sections/psalmodia/pt.tex}
+
+\clearpage
+\input{sections/stałe/responsorium.tex}
+\input{sections/stałe/kantyk_symeona.tex}
+\input{sections/stałe/modlitwy_końcowe.tex}
+\input{sections/stałe/modlitwa_po_komplecie.tex}
+\clearpage
+\thispagestyle{empty}
+\color{white}\tiny{-}
+\vfill
+\begin{center}
+\includegraphics[width=310px]{Ryciny/Mszał/pax_vobis.jpg}
+\end{center}
+\vfill
+\color{black}
+\normalsize
+\clearpage
+
+\chapter{Teksty wspólne}
+\label{ch:tekty_wspolne}
+\input{sections/stałe/teksty_wspolne.tex}
+
+\thispagestyle{empty}
+\color{white}\tiny{-}
+\vfill
+\begin{center}
+\includegraphics[width=200px]{Ryciny/Mszał/dziecko.png}
+\end{center}
+\vfill
+\color{black}
+\clearpage
+
+\chapter{Antyfony końcowe}
+\input{sections/stałe/antyfony_koncowe.tex}
+\normalsize
+\clearpage
+\thispagestyle{empty}
+\color{white}\tiny{-}
+\vfill
+\begin{center}
+\includegraphics[width=200px]{Ryciny/Mszał/sw_rodzina.jpg}
+\end{center}
+\vfill
+\color{black}
+\normalsize
+\clearpage
+\tableofcontents
+
+\clearpage
+\thispagestyle{empty}
+% \color{white}\tiny{-}
+% \vfill
+\includegraphics[width=295px]{Ryciny/Mszał/narodzenie2.jpg}
+% \vfill
+
+\end{document}

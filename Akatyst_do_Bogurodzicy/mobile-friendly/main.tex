@@ -1,0 +1,169 @@
+\documentclass[11pt]{article}
+
+% Ustawienia strony
+\usepackage[
+    paperwidth=9cm,  % Szerokość
+    paperheight=19cm,% Wysokość,
+    top=0.7cm,
+    left=0.8cm,
+    right=0.8cm,
+    bottom=1.8cm]{geometry}
+\usepackage{lettrine}
+\usepackage[polish]{babel}
+\usepackage{fontspec}
+\usepackage{stackengine}
+\usepackage{csquotes}
+\usepackage{xcolor}
+\usepackage{pagecolor}
+\usepackage{tikz}
+\usepackage{eso-pic}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{setspace}
+\usepackage{array}
+\usepackage{titlesec}
+\usepackage{ragged2e}
+\usepackage{microtype}
+\usepackage{enumitem}
+
+\sloppy
+
+\input{style}
+\input{commands}
+
+\begin{document}
+
+\vspace*{1.9cm}
+\begin{center}
+    \includegraphics[width=0.8\textwidth]{Sources/nmp.pdf}    
+\end{center}
+\thispagestyle{empty}
+\newTitle{Akatyst}{ku czci Bogurodzicy}
+\vfill
+
+\clearpage
+\section*{\fakesc{W}{prowadzenie}}
+\input{Parts/legenda}
+
+\section*{\fakesc{R}{ozpoczęcie}}
+\begin{center}
+    \makebox[\linewidth]{%
+        \includegraphics[width=1\textwidth]{Notes/Boże, wejrzyj_full.png}
+    }
+\end{center}
+
+\vfill
+\begin{center}
+    \makebox[\linewidth]{%
+        \includegraphics[width=0.2\textwidth]{Sources/Ryciny/cross3.png}
+    }
+\end{center}
+
+\clearpage
+
+\section*{\kondakion{1}}
+\label{kon_1}
+\inputKondakion{1}
+
+\section*{\ikos{1}}
+\label{ikos_1}
+\inputIkos{1}
+
+\section*{\kondakion{2}}
+\inputKondakion{2}
+
+\section*{\ikos{2}}
+\inputIkos{2}
+
+\section*{\kondakion{3}}
+\inputKondakion{3}
+
+\cutLine
+
+\section*{\ikos{3}}
+\inputIkos{3}
+
+\cutLine
+
+\section*{\kondakion{4}}
+\inputKondakion{4}
+
+\section*{\ikos{4}}
+\inputIkos{4}
+
+\section*{\kondakion{5}}
+\inputKondakion{5}
+
+\cutLine
+
+\section*{\ikos{5}}
+\inputIkos{5}
+
+\cutLine
+
+\section*{\kondakion{6}}
+\inputKondakion{6}
+
+\section*{\ikos{6}}
+\inputIkos{6}
+
+\section*{\kondakion{7}}
+\inputKondakion{7}
+
+\section*{\ikos{7}}
+\inputIkos{7}
+
+\section*{\kondakion{8}}
+\inputKondakion{8}
+
+\section*{\ikos{8}}
+\inputIkos{8}
+
+\section*{\kondakion{9}}
+\inputKondakion{9}
+
+\cutLine
+
+\section*{\ikos{9}}
+\inputIkos{9}
+
+\section*{\kondakion{10}}
+\inputKondakion{10}
+
+\section*{\ikos{10}}
+\inputIkos{10}
+
+\section*{\kondakion{11}}
+\inputKondakion{11}
+
+\clearpage
+
+\section*{\ikos{11}}
+\inputIkos{11}
+
+\clearpage
+
+\section*{\kondakion{12}}
+\inputKondakion{12}
+
+\clearpage
+
+\section*{\ikos{12}}
+\inputIkos{12}
+
+\section*{\kondakion{13}}
+\inputKondakion{13}
+
+\begin{itemize}[label={\includegraphics[width=0.4cm]{Sources/rotunda_symbol.png}}]
+    \item \comm{Kondakion ten zwykle recytuje się trzykrotnie.}
+    \item \comm{Według tradycji bizantyjsko-słowiańskiej na koniec dodaje się jeszcze \textcolor{black}{ikos 1} (s. \textcolor{black}{\pageref{ikos_1}}), zwłaszcza, gdy recytowany był cały akatyst.}
+    \clearpage
+    \sep
+    \item \comm{Akatyst kończy się śpiewem \textcolor{black}{kondakionu 1} (s. \textcolor{black}{\pageref{kon_1}}).}
+\end{itemize}
+
+\section*{\fakesc{M}{odlitwa dziękczynna}}
+
+Przyjmij o Potężna; najczystsza Pani i Królowo nasza, Boża Rodzicielko, te pochwalne hymny, które Tobie Jedynej z wdzięcznością śpiewamy my, słudzy Twoi niegodni. Wybrana spośród wszystkich pokoleń, nad wszystkie stworzenia nieba i ziemi wspanialszą się okazałaś. Za Twym udziałem Pan zastępów jest z nami, przez Ciebie poznaliśmy Syna Bożego i nasyciliśmy się świętym Jego Ciałem i Krwią najczystszą. Dlatego błogosławiona jesteś z pokolenia na pokolenie, o przez Boga wysławiona, wspanialsza od Cherubinów i czcigodniejsza od Serafinów. W tej oto godzinie, o pełna chwały Bogurodzico Najświętsza, nie ustawaj w modlitwie za nas, niegodne Twe sługi, byśmy od wszelkiej złej myśli i od wszelkiego nieszczęścia wolni byli i od wszelkiej szatańskiej złośliwości uchronieni. Aż do chwili ostatniej, wstawiając się za nami, zachowaj nas nienagannymi. Orędownictwem bowiem Twoim i opieką chronieni, Jedynemu w Trójcy Bogu Stwórcy wszechświata składamy chwałę, część, hołd i dziękczynienie, teraz i zawsze i na wieki wieków. Amen.
+
+\end{document}

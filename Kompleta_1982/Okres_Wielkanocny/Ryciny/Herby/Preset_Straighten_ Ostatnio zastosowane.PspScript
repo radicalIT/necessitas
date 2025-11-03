@@ -1,0 +1,27 @@
+from PSPApp import *
+
+def ScriptProperties():
+    return {
+        'Author': u'',
+        'Copyright': u'',
+        'Description': u'',
+        'Host': u'Paint Shop Pro Photo',
+        'Host Version': u'11.20'
+        }
+
+def Preset_Straighten():
+    return {
+        'CropImage': True, 
+        'GuidelineCenter': (0.501887,0.506459), 
+        'GuidelineLength': 0.601993, 
+        'GuidelineRotateAngle': 1.07754, 
+        'RotateAll': False, 
+        'RotateMode': App.Constants.RotateMode.Auto, 
+        'FillMaterial': None, 
+        'ForegroundMaterial': None
+        }
+
+def Do(Environment):
+    # Prostowanie
+    App.Do( Environment, 'Straighten',         Preset_Straighten())
+

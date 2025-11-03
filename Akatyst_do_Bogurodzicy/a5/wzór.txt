@@ -1,0 +1,15 @@
+Ikos
+
+% \petasti{}\apostrofos{}\pauza
+% \apostrofos{}\apostrofos{}\pauza
+% \pauza \oligon{}\pauza
+% \petasti{}\elaphron{} \oligon{}\pauza
+% \oligon{}:
+
+Kondakion
+
+% \petasti{}\apostrofos{}\apostrofos{},\pauza
+% \petasti{} \apostrofos{}\apostrofos{},\pauza
+% \oligon{}
+% \petasti{}\apostrofos{} \apostrofos{} \oligon{}:\pauza
+% \alleluja

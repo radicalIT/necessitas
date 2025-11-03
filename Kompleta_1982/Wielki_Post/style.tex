@@ -1,0 +1,54 @@
+\titleformat{\chapter}
+{\normalfont\LARGE\bfseries}{\thechapter.}{1em}{}
+
+\titleformat{\section}
+{\center\normalfont\Large\bfseries}{\thesection.}{1em}{}
+
+\titleformat{\subsection}
+{\center\normalfont\large\bfseries}{\thesubsection.}{1em}{}
+
+% \titleformat{\chapter}[display]
+%   {\normalsize \huge  \color{black}}%
+%   {\flushright\normalsize \color{RoyalRed}%
+%    \MakeUppercase{\chaptertitlename}\hspace{1ex}%
+%    {\fontfamily{mdugm}\fontsize{60}{60}\selectfont\thechapter}}%
+%   {10 pt}%
+%   {\bfseries\huge}%
+\makeatletter
+\def\@makechapterhead#1{%
+  {\parindent \z@ \raggedright \normalfont
+      % \ifnum \c@secnumdepth >\m@ne
+      %     \Large\bfseries\thechapter.\space
+      % \fi
+      \interlinepenalty\@M
+      \huge \bfseries #1\par\nobreak
+      \vskip 40\p@
+    }}
+\makeatother
+
+\setcounter{secnumdepth}{0}
+
+\renewcommand{\cleardoublepage}{\clearpage}
+% \renewcommand{\thesection}{abc}
+% \let\cleardoublepage=\clearpage
+
+\newgeometry{
+  top=20mm,
+  bottom=20mm,
+  outer=8mm,
+  inner=17mm,
+}
+
+\grechangestaffsize{15}
+\gresetinitiallines{0}
+\grechangestyle{annotation}{\small\bfseries}
+\grechangestyle{initial}{\fontsize{32}{35}\mdseries}
+\grechangedim{spaceabovelines}{2mm}{scalable}
+\gresetheadercapture{sigla}{grecommentary[2mm]}{}
+
+
+% \titleformat{\subsection}
+%   {\normalfont\normalsize\itshape}{\thesubsection.}{1em}{}
+
+% \titleformat{\subsubsection}
+%   {\normalfont\normalsize\itshape}{\thesubsubsection.}{1em}{}

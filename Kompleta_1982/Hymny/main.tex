@@ -1,0 +1,49 @@
+% !TEX program = LuaLaTeX
+\documentclass[10pt,a5paper,twoside]{extbook}
+
+\usepackage[osf,p]{libertine}
+\usepackage[autocompile]{gregoriotex}
+
+\usepackage[polish]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[autostyle=true]{csquotes}
+\usepackage{lipsum}
+\usepackage{xcolor}
+\usepackage{geometry}
+
+\usepackage{titlesec}
+\usepackage{titletoc}
+
+\usepackage{fontspec}
+\setmainfont{Book Antiqua}
+
+\usepackage{etoolbox}
+\usepackage{pdfpages}
+
+\usepackage{setspace}
+
+\input{commands.tex}
+\input{style.tex}
+
+\nonstopmode
+
+\title{Kompleta}
+% Na podstawie Proprium Officiorum 1982r.
+% \author{br. Kacper Osika OP}
+
+\begin{document}
+\includepdf[pages={1}]{Materiały/cover_page.pdf}
+\chapter{Teksty okresowe}
+\input{sections/AD.tex}
+% \input{sections/BN.tex}
+% \input{sections/OZ.tex}
+% \input{sections/WP.tex}
+% \input{sections/OW.tex}
+
+\chapter{Teksty własne}
+\input{sections/wlasne.tex}
+
+\chapter{Melodie Kantyku Symeona}
+\input{sections/kantyki.tex}
+
+\end{document}

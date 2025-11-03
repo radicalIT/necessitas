@@ -1,0 +1,23 @@
+{
+  "latex-workshop.latex.tools": [
+    {
+      "name": "lualatex-direct",
+      "command": "lualatex",
+      "args": [
+        // "-synctex=1",
+        "-interaction=nonstopmode",
+        // "-file-line-error",
+        "%DOC%"
+      ],
+      "env": {}
+    }
+  ],
+  "latex-workshop.latex.recipes": [
+    {
+      "name": "lualatex-direct",
+      "tools": ["lualatex-direct"]
+    }
+  ],
+  "latex-workshop.latex.recipe.default": "lualatex-direct",
+  "latex-workshop.latex.autoBuild.run": "never"
+}

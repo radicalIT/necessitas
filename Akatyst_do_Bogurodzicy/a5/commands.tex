@@ -1,0 +1,58 @@
+\newcommand{\fakesc}[2]{\MakeUppercase{#1}\scalebox{0.75}{\MakeUppercase{#2}}}
+
+\newcommand{\ikos}[1]{\fakesc{I}{kos} #1}
+\newcommand{\kondakion}[1]{\fakesc{K}{ondakion} #1}
+
+\newcommand{\inputIkos}[1]{\input{Parts/ikos_#1.tex}}
+\newcommand{\inputKondakion}[1]{\input{Parts/kondakion_#1.tex}}
+
+\newcommand{\ByzSym}[1]{\textcolor{darkgray}{\scalebox{1.3}{\bizfont\char"#1}}}
+
+\newcommand{\init}[3][-2em]{
+    \begin{tabular}
+        {
+            @{}
+            >{\raggedleft}
+            p{0.09\linewidth}
+            @{\hspace{0.3em}}
+            m{0.96\linewidth}@{}
+        }
+        \hspace{#1}\raisebox{-2.8em}{\fontsize{80}{80}\redortho{#2}} & #3
+    \end{tabular}
+}
+
+\newcommand{\newTitle}[2]{
+    \begin{center}
+        {
+            {\color{red}\fontsize{53}{53}\ortfont #1}\\
+            {\large\wfont #2}
+        }
+    \end{center}
+}
+
+\newcommand{\redortho}[1]{{\textcolor{red}{\ortfont#1}}}
+
+\newcommand{\comm}[1]{\textcolor{red}{#1}}
+
+\newcommand{\witaj}{\noindent{\fontsize{17}{17}\comm{\wfont W}}itaj}
+
+\newcommand{\allelujaiii}{
+    \tertia{\fontsize{17}{17}\comm{\wfont A}l}leluja, \comm{\Large\wfont a}lle{\normalsize\petasti{lu}ja}, \comm{\Large\wfont a}lleluja.
+}
+\newcommand{\alleluja}{
+    \apostrofos{\fontsize{13}{13}\comm{\wfont A}l}\!\oligon{le}\!\!\oligon[3pt]{lu}\!ja.
+}
+\newcommand{\witajOblubienico}{\noindent\oligon{\witaj}, Oblubie\petasti{ni}co Dziewicza.}
+
+\newcommand{\V}[1]{\textcolor{red}{$\mathbf{\not{\mkern -3mu \mathrm{V}}}.$}~#1}
+\newcommand{\R}[1]{\textcolor{red}{$\mathbf{\not{\mkern -3mu \mathrm{R}}}.$}~#1}
+
+% Znaki bizantyjskie
+\newcommand{\ison}[1]{\stackon[2pt]{#1}{\ByzSym{1D046}}}
+\newcommand{\oligon}[2][0pt]{\stackon[#1]{#2}{\vspace{#1}\ByzSym{1D047}}}
+\newcommand{\apostrofos}[2][2pt]{\stackon[#1]{#2}{\ByzSym{1D051}}}
+\newcommand{\tertia}[1]{\stackon[-1pt]{#1}{\stackon[-2pt]{\hspace{5pt}\ByzSym{1D0F1}}{\ByzSym{1D047}}}}
+\newcommand{\elaphron}[1]{\stackon[4pt]{#1}{\rotatebox{180}{\ByzSym{1D049}}}}
+\newcommand{\petasti}[1]{\stackon[2pt]{{\bf#1}}{\ByzSym{1D049}}}
+\newcommand{\kentemata}[1]{\stackon[0pt]{#1}{\stackon[-4pt]{\ByzSym{1D046}}{\ByzSym{1D0F0}}}}
+\newcommand{\pauza}{\textcolor{darkgray}{\raisebox{2pt}{\ \scalebox{1.5}{’}\ }}}

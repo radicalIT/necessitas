@@ -1,0 +1,25 @@
+from PSPApp import *
+
+def ScriptProperties():
+    return {
+        'Author': u'',
+        'Copyright': u'',
+        'Description': u'',
+        'Host': u'Paint Shop Pro Photo',
+        'Host Version': u'11.20'
+        }
+
+def Preset_Crop():
+    return {
+        'CropRect': ((193,214), 1113, 1983), 
+        'Mode': App.Constants.CropMode.Custom, 
+        'Units': App.Constants.CropUnits.Pixels, 
+        'SelectedArea': False, 
+        'PrintWidth': -1, 
+        'PrintHeight': -1
+        }
+
+def Do(Environment):
+    # Crop
+    App.Do( Environment, 'Crop',         Preset_Crop())
+
