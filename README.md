@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="logo.png" alt="Logo Necessitas" width="200"/>
+  <img src="pagename.png" alt="Logo Necessitas" width="200"/>
 </p>
 
 <h1 align="center">Projekty "Necessitas"</h1>
