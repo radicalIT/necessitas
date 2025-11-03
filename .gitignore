@@ -1,0 +1,21 @@
+# 1. Ignoruj wszystko...
+/*
+
+# 2. ...z wyjątkiem tych folderów, które chcesz udostępnić:
+!Akatyst_do_Bogurodzicy/
+!Kompleta_1982/
+# (Tutaj dodawaj kolejne linie "!NazwaFolderu/" dla przyszłych projektów)
+
+# 3. ...i z wyjątkiem samego tego pliku:
+!.gitignore
+
+# 4. Globalne zasady ignorowania plików tymczasowych LaTeX-a
+# (będą działać we wszystkich podfolderach, które śledzisz)
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.bbl
+*.blg
+*~
