@@ -1,5 +1,5 @@
 # Fdb version 4
-["lualatex"] 1762094444.42453 "d:/LateX/Akatyst_do_Bogurodzicy/main.tex" "main.pdf" "main" 1762094459.83855 0
+["lualatex"] 1762244546.92286 "d:/LateX/Akatyst_do_Bogurodzicy/a5/main.tex" "main.pdf" "main" 1762244586.66911 0
   "C:/Users/kosik/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1761845374 382865 7f3db241f62f6b441ef34c07455b41da ""
   "C:/Users/kosik/AppData/Local/MiKTeX/luatex-cache/generic/fonts/otl/abadesa.luc" 1760087832 11618 a48268c46a8aaaf77244420eb6fd6b50 ""
   "C:/Users/kosik/AppData/Local/MiKTeX/luatex-cache/generic/fonts/otl/besley-italic-variablefont-wght.luc" 1760087833 62447 d63ed9c4b77d2dc727a4018e02bb2536 ""
@@ -9,7 +9,7 @@
   "C:/Users/kosik/AppData/Local/MiKTeX/luatex-cache/generic/fonts/otl/lmroman10-regular.luc" 1760087793 127337 f0298e83db9db0a0e4d40fb1698eb7c5 ""
   "C:/Users/kosik/AppData/Local/MiKTeX/luatex-cache/generic/fonts/otl/symbola.luc" 1760087832 854322 3514cec4cffba66bed78d44dfb599396 ""
   "C:/Users/kosik/AppData/Local/MiKTeX/luatex-cache/generic/fonts/streams/besleyvariablefontwghtttf-1.luc" 1760087842 97503 62ecafad792231e0381983606426aa42 ""
-  "C:/Users/kosik/AppData/Local/MiKTeX/luatex-cache/generic/names/luaotfload-lookup-cache.luc" 1762020866 11652 f7ac4087dd1b36be7349f61dd335500d ""
+  "C:/Users/kosik/AppData/Local/MiKTeX/luatex-cache/generic/names/luaotfload-lookup-cache.luc" 1762244076 11754 cbd3c665b14f92e2c132fb2ed973cac7 ""
   "C:/Users/kosik/AppData/Local/MiKTeX/luatex-cache/generic/names/luaotfload-names.luc.gz" 1760466830 59239 304e9960edbf461be1b04eb38a240a70 ""
   "C:/Users/kosik/AppData/Local/Microsoft/Windows/Fonts/besley-variablefont_wght.ttf" 1760000246 108768 782385457478c4c9b249b17e8966b46b ""
   "C:/Users/kosik/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmex10.tfm" 1136765053 992 662f679a0b3d2d53c1b94050fdaa3f50 ""
@@ -238,7 +238,12 @@
   "Parts/kondakion_8.tex" 1761508973 497 1c55dc61abddb922b798c9f40a381358 ""
   "Parts/kondakion_9.tex" 1761509452 402 9e1e86f22cf1cf9586457815f0e5c9b2 ""
   "Parts/legenda.tex" 1756121011 1646 06b8a7da192a2f1d4cc59ee3cc293cab ""
+  "Sources/Ryciny/Mszał/alfa-omega.png" 1480135592 26808 c2baa32131b5a84d8f992de367042750 ""
+  "Sources/Ryciny/Mszał/aniolek3.jpg" 1480135598 58844 0e9ea4a42fcfa45727d85057e3c81ae5 ""
+  "Sources/Ryciny/Mszał/art.jpg" 1480135610 71584 85cd73713d5dbdfc200b69f6c6c0374d ""
+  "Sources/Ryciny/Mszał/blogoslawienstwo_greckie.jpg" 1706275600 97742 79851d2a4608762b0915226cf4126d24 ""
   "Sources/Ryciny/cross.png" 1755943595 670580 b672e8881981f15dfc0602d1ba0af016 ""
+  "Sources/Ryciny/cross2.png" 1755943748 544272 385060ee2b76582b7f7e2c2faa991ac8 ""
   "Sources/Ryciny/cross3.png" 1755943996 291987 d812ff9cc224bf34665e297e817ebb3f ""
   "Sources/Ryciny/narodzenie.png" 1755945450 429550 5cfe16e099786b27d21c1be84f0fb5ab ""
   "Sources/Ryciny/zawijas.png" 1755944240 368061 a3532195883064ce47251b694f2d47d8 ""
@@ -247,12 +252,14 @@
   "Sources/nmp.pdf" 1755936544 38932 5d304423a76aefe969063997ad952b05 ""
   "Sources/rotunda_symbol.png" 1754581081 1189 75229f22c9444a43a60834f7e4373369 ""
   "commands.tex" 1761507414 2254 b594ce9c85fc582f0e502fca233d6df3 ""
-  "d:/LateX/Akatyst_do_Bogurodzicy/main.tex" 1762094322 4257 e8bc48210d6cfdb32293575dd61017b0 ""
-  "main.aux" 1762094459 1028 8e5db72046ada8be367c9de57d5289c6 "lualatex"
-  "main.tex" 1762094322 4257 e8bc48210d6cfdb32293575dd61017b0 ""
-  "style.tex" 1762094443 1751 831a7042720c3f571b81643509313f96 ""
+  "d:/LateX/Akatyst_do_Bogurodzicy/a5/main.tex" 1762244544 5187 6c313406e7cd431894e385950c9f5040 ""
+  "main.aux" 1762244584 5894 95df590185efc61567d57363ec58afc0 "lualatex"
+  "main.tex" 1762244544 5187 6c313406e7cd431894e385950c9f5040 ""
+  "main.toc" 1762244584 3232 890097f809d54d1cbe6e38fa9287ede3 "lualatex"
+  "style.tex" 1762243825 1739 87cc5a416fe34050400844cd638af924 ""
   (generated)
   "main.aux"
   "main.log"
   "main.pdf"
+  "main.toc"
   (rewritten before read)
