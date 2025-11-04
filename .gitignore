@@ -26,4 +26,6 @@
 *.gtex
 *.fls
 *.gaux
+*.mx1
+*.fdb_latexmk
 *~
